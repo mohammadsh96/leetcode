@@ -1,6 +1,6 @@
 ## ***Two Sum***
 
-[solutions Here](./index.js)
+[solutions Here](./solution.md)
 
 - Given an array of integers nums and an integer target,
 
