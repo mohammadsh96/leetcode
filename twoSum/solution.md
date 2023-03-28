@@ -1,19 +1,9 @@
-// Two pass approach 
-var twoSum = function(nums, target) {
-    let hashMap={}
-       for(let i=0;i<nums.length ;i++){
-        hashMap[nums[i]]=i
-           }
-       for(let i=0;i<nums.length ;i++){
-          let completment =target-nums[i]
-            if(hashMap[completment] && hashMap[completment] !=i){
-            return [i , hashMap[completment]]
-            }
-          }
-};
 
+### One pass approach 
 
-//One pass approach
+- time complexity : O(N)
+
+```js
 var twoSum = function(nums, target) {
     let hashMap={}
       
@@ -26,9 +16,32 @@ var twoSum = function(nums, target) {
           }
 
 };
+```
+### Two pass approach 
 
-// BRUTE FORCE approach
+- time complexity : O(2N) ==> O(N)
 
+```js
+var twoSum = function(nums, target) {
+    let hashMap={}
+       for(let i=0;i<nums.length ;i++){
+        hashMap[nums[i]]=i
+           }
+       for(let i=0;i<nums.length ;i++){
+          let completment =target-nums[i]
+            if(hashMap[completment] && hashMap[completment] !=i){
+            return [i , hashMap[completment]]
+            }
+          }
+};
+```
+
+
+### BRUTE FORCE approach
+
+- time complexity : O(N^2)
+
+```js
 var twoSum = function(nums, target) {
    
       
@@ -42,6 +55,5 @@ var twoSum = function(nums, target) {
             }
           }
           return null
-
 };
-
+```
