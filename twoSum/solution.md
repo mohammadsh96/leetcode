@@ -73,3 +73,4 @@ var twoSum = function(nums, target) {
           return null
 };
 ```
+Here's the unit test code for the `isHappy` function:  [test file here](./twoSum.test.js)
