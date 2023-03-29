@@ -1,4 +1,4 @@
-## Plus One
+## Plus One. 
 
 - [solution Here](./solution.md)
 
