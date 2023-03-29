@@ -1,0 +1,23 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "practicing problem solving on leetcode questions with some documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadsh96/leetcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohammadsh96/leetcode/issues"
+  },
+  "homepage": "https://github.com/mohammadsh96/leetcode#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}

@@ -1,3 +1,6 @@
+## Solutions
+
+```js
 var isHappy = function(n) {
     // Create a new Set to keep track of seen numbers
    const prevSeenSum= new Set()
@@ -23,4 +26,5 @@ var isHappy = function(n) {
         }
     return true
 };
-module.exports={isHappy}
+```
+Here's the unit test code for the `isHappy` function:  [test file here](./happyNumber.test.js)
