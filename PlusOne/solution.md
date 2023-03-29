@@ -51,3 +51,4 @@ return digits
 };
 ```
 ![plusOne](../assets/plusOne.png)
+Here's the unit test code for the `plusOne` function:  [test file here](./plusOne.test.js)

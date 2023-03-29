@@ -27,4 +27,4 @@ var fizzBuzz = function(n) {
     return newArray
 };
 ```
-Here's the unit test code for the `isHappy` function:  [test file here](./fizzBuzz.test.js)
+Here's the unit test code for the `fizzBuzz` function:  [test file here](./fizzBuzz.test.js)
