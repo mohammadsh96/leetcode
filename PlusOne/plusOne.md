@@ -39,4 +39,3 @@ Thus, the result should be [1,0].
 0 <= digits[i] <= 9
 digits does not contain any leading 0's.
 ```
-Here's the unit test code for the `plusOne` function:  [test file here](./plusOne.test.js)

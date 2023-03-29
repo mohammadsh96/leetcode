@@ -76,4 +76,4 @@ var twoSum = function(nums, target) {
 
 
 
-Here's the unit test code for the `isHappy` function:  [test file here](./twoSum.test.js)
+Here's the unit test code for the `twoSum` function:  [test file here](./twoSum.test.js)
