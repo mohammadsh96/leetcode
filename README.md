@@ -11,4 +11,5 @@ practicing problem solving on leetcode questions with some documentation
 |[Happy Number](./HappyNumber/happyNumber.md)|
 |[Plus One](./PlusOne/plusOne.md)|
 |[Fizz Buzz](./FizzBuzz/fizzBuzz.md)|
+|[Binary Search](./BinarySearch/binarySearch.md)|
 
