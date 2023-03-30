@@ -13,3 +13,10 @@ practicing problem solving on leetcode questions with some documentation
 |[Fizz Buzz](./FizzBuzz/fizzBuzz.md)|
 |[Binary Search](./BinarySearch/binarySearch.md)|
 
+
+| Contact |
+| --- |
+|auther : Mohammad Alshraideh|
+|Email : mhmd.shrydh1996@gmail.com|
+|LinkedIn : [mohammad-alshraideh](https://www.linkedin.com/in/mohammad-alshraideh/)|
+|GitHub : [mohammadsh96](https://github.com/mohammadsh96)|
