@@ -1,10 +1,7 @@
 ## Contains Duplicate: 
 [solution here](./solution.md)
 - Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-in javascript
- var containsDuplicate = function(nums) {
-    
-};
+
 
 ### Example 1:
 ```
