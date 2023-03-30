@@ -12,6 +12,7 @@ practicing problem solving on leetcode questions with some documentation
 |[Plus One](./PlusOne/plusOne.md)|
 |[Fizz Buzz](./FizzBuzz/fizzBuzz.md)|
 |[Binary Search](./BinarySearch/binarySearch.md)|
+|[Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)|
 
 
 | Contact |
