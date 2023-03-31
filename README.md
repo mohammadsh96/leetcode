@@ -13,6 +13,7 @@ practicing problem solving on leetcode questions with some documentation
 |[Fizz Buzz](./FizzBuzz/fizzBuzz.md)|
 |[Binary Search](./BinarySearch/binarySearch.md)|
 |[Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)|
+|[Contains Duplicate II](./ContainsDuplicateII//ContainsDuplicateII.md)|
 
 
 | Contact |
