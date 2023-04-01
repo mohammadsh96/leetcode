@@ -16,10 +16,19 @@ var containsDuplicate = function(nums) {
   
 };
 ```
+
+---
+
+- The **time complexity** of this function is **O(n)** because it iterates over the input array once.
+- The **space complexity** is also **O(n)** because the function uses a hash table to keep track of the frequency of each element in the array. The size of the hash table can be up to n in the worst case if all elements are unique.
+
+---
+
 ## result on Leetcode : 
 ![containsDuplicate](../assets/containsDuplicate.png)
 
 
+----
 
 ### 2- using Set()  approach
 
@@ -36,6 +45,22 @@ var containsDuplicate = function(nums) {
   return false;
 };
 ```
+
+----
+- The **time complexity** of the second solution is **O(n)** because it iterates over the array once and performs constant time operations for each element.
+
+- The **space complexity** of the second solution is also **O(n)** because it creates a set to store the unique elements in the array. The size of the set is at most n, where n is the length of the input array.
+
+---
+
 ## result on Leetcode : 
 ![containsDuplicate](../assets/containsDuplicateSet().png)
+
+---
+
+ ## recourses : 
+ [W3schools : how to use Set( ) in Javscript](https://www.w3schools.com/js/js_object_sets.asp)
+
+ ---
 ## Unit test file : [click here](containsDuplicate.test.js)
+

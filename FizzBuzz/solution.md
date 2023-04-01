@@ -27,4 +27,17 @@ var fizzBuzz = function(n) {
     return newArray
 };
 ```
+---
+
+- The **time complexity** of this code is **O(n)** because it contains a for loop that iterates n times, and each iteration is a constant time operation.
+
+- The **space complexity** is also **O(n)** because it creates a new array of length n to store the results.
+
+---
+
+## result on Leetcode : 
+   ![fizz buzz](../assets/fizzBuzz.png)
+
+---
+
 Here's the unit test code for the `fizzBuzz` function:  [test file here](./fizzBuzz.test.js)
