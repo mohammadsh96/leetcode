@@ -32,8 +32,7 @@ var twoSum = function(nums, target) {
 
   In the worst case, where there is no pair of elements that add up to the target, the hash table will store all the elements in the input array, and hence it will take up O(n) space. 
   
-  
-   ## result on Leetcode : 
+## result on Leetcode : 
    ![two sum](../assets/twoSum2pass.png)
 -----
 ### Two pass approach 
