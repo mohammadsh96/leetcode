@@ -58,7 +58,7 @@ var containsDuplicate = function(nums) {
 
 ---
 
- ## recourses : 
+## recourses : 
  [W3schools : how to use Set( ) in Javscript](https://www.w3schools.com/js/js_object_sets.asp)
 
  ---
