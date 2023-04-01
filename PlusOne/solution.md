@@ -52,4 +52,5 @@ var plusOne = function(digits) {
 - The **space complexity** of this solution is **O(1)**, as the amount of extra space used does not depend on the input size, but on the constant size of the output array (which is at most one element larger than the input array). Therefore, this algorithm uses a constant amount of extra space regardless of the input size.
 ## result on Leetcode : 
    ![plusOne](../assets/onePlusFaster.png)
+   
 Here's the unit test code for the `plusOne` function:  [test file here](./plusOne.test.js)
