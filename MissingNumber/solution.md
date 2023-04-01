@@ -18,12 +18,13 @@ var missingNumber = function(nums) {
 
    **This is the optimum solution**
 ---
----
----
+
 
 ## result on Leetcode : 
    ![Missing Number](../assets/missingNum1.png) 
-
+   
+---
+---
 ----
 
 ###  2-dictionary approach (Hash table)
