@@ -31,6 +31,8 @@ var twoSum = function(nums, target) {
 - The **space complexity** of the given code is **O(n)**, where n is the length of the input array nums. This is because the code creates a hash table that can potentially store all the elements in the input array along with their indices.
 
   In the worst case, where there is no pair of elements that add up to the target, the hash table will store all the elements in the input array, and hence it will take up O(n) space. 
+  
+  
    ## result on Leetcode : 
    ![two sum](../assets/twoSum2pass.png)
 -----
