@@ -33,4 +33,5 @@ var isHappy = function(n) {
 
 ## result on Leetcode : 
    ![happy number](../assets/happy.png)
+   
 Here's the unit test code for the `isHappy` function:  [test file here](./happyNumber.test.js)
