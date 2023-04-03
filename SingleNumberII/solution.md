@@ -3,13 +3,13 @@
 ###  1-XOR approach (optimum solution)
 ```js
 var singleNumber = function(nums) {
-    let result = 0;
-    
-    for (let i = 0; i < nums.length; i++) {
-        result ^= nums[i];
-    }
-    
-    return result;
+  let ones = 0;
+  let twos = 0;
+  for (let i = 0; i < nums.length; i++) {
+    ones = (ones ^ nums[i]) & ~twos;
+    twos = (twos ^ nums[i]) & ~ones;
+  }
+  return ones| twos
 };
 ```
 - **Time Complexity: O(n)**,
@@ -20,7 +20,7 @@ var singleNumber = function(nums) {
   We only use a constant amount of additional memory (the 'result' variable) regardless of the input size.
 
 ## result on Leetcode : 
-   ![singleNumber](../assets/singleNumberXOR.png)
+   ![singleNumber](../assets/XORsingleNumber.png)
 
 -------- 
 
@@ -43,7 +43,7 @@ var singleNumber = function(nums) {
         distinctSum += distinctNums[i];
     }
     
-    return 2 * distinctSum - sum;
+    return (3 * distinctSum - sum)/2
 };
 
 ```
@@ -54,7 +54,7 @@ var singleNumber = function(nums) {
   because it creates a new array of distinct numbers using a set object, which could have a size of up to n in the worst case if all the elements in the input array are distinct.
 
 ## result on Leetcode : 
-   ![singleNumber](../assets/singleNumberSet.png)
+   ![singleNumber](../assets/mathSingleNumberII.png)
    
 -----
 
@@ -95,9 +95,12 @@ var singleNumber = function (nums) {
 
 
 ## result on Leetcode : 
-   ![singleNumber](../assets/singleNumberTwoPass.png)
+   ![singleNumber](../assets/hashSingleNumberII.png)
 
 ## recourses : 
- [W3schools : how to use Set( ) in Javscript](https://www.w3schools.com/js/js_object_sets.asp)
+[Read about XOR approach](./XOR.md)
 
-Here's the unit test code for the `singleNumber` function:  [test file here](./singleNumber.test.js)
+ [W3schools : how to use Set() in Javscript](https://www.w3schools.com/js/js_object_sets.asp)
+
+
+Here's the unit test code for the `singleNumber` function:  [test file here](./singleNumberII.test.js)
