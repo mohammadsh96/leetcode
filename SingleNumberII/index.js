@@ -1,12 +1,12 @@
 // first 
 var singleNumber = function(nums) {
-    let result = 0;
-    
-    for (let i = 0; i < nums.length; i++) {
-        result ^= nums[i];
-    }
-    
-    return result;
+  let ones = 0;
+  let twos = 0;
+  for (let i = 0; i < nums.length; i++) {
+    ones = (ones ^ nums[i]) & ~twos;
+    twos = (twos ^ nums[i]) & ~ones;
+  }
+  return ones| twos
 };
 //second
 var singleNumber = function(nums) {
@@ -23,9 +23,11 @@ var singleNumber = function(nums) {
         distinctSum += distinctNums[i];
     }
     
-    return 2 * distinctSum - sum;
+    return (3 * distinctSum - sum)/2
 };
-//third
+// let nums=[2,2,3,2]
+// console.log(singleNumber(nums));
+// //third
 var singleNumber = function (nums) {
   let hash = {};
 
