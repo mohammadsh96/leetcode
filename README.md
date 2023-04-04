@@ -7,7 +7,7 @@ practicing problem solving on leetcode questions with some documentation
 | Table Of Content |  |  |  |  |  |
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | [two Sum](./twoSum/twoSum.md)   | [Happy Number](./HappyNumber/happyNumber.md)  | [Plus One](./PlusOne/plusOne.md)  |[Fizz Buzz](./FizzBuzz/fizzBuzz.md)  | [Binary Search](./BinarySearch/binarySearch.md)   | [Contains Duplicate](./ContainsDuplicate/ContainsDuplicate.md)   |
-| [Contains Duplicate II](./ContainsDuplicateII/ContainsDuplicateII.md) |  [Missing Number](./MissingNumber/missingNumber.md) | [Single Number](./SingleNumber/singleNumber.md)   | [Single Number II](./SingleNumberII/singleNumberII.md)  | [Single Number III](./SingleNumberIII/singleNumberII.md)  |[MoveZeros](./MoveZeros/MoveZeros.md)  |
+| [Contains Duplicate II](./ContainsDuplicateII/ContainsDuplicateII.md) |  [Missing Number](./MissingNumber/missingNumber.md) | [Single Number](./SingleNumber/singleNumber.md)   | [Single Number II](./SingleNumberII/singleNumberII.md)  | [Single Number III](./SingleNumberIII/singleNumberIII.md)  |[MoveZeros](./MoveZeros/MoveZeros.md)  |
 | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() |
 | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() |
 | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() | [empty]() |

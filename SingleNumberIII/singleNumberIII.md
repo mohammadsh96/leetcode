@@ -1,4 +1,4 @@
-## Single Number  >> [check on leetcode](https://leetcode.com/problems/single-number-iii/description/)
+## Single Number III  >> [check on leetcode](https://leetcode.com/problems/single-number-iii/description/)
 ----
 [Solution here](./solution.md)
 
