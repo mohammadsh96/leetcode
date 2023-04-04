@@ -59,3 +59,5 @@ let xorResult = 0;
 let nums = [1, 1, 2, 2, 3, 4];
 console.log(singleNumber(nums));
 module.exports = { singleNumber };
+
+
